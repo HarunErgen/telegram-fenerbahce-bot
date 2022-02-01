@@ -1,5 +1,5 @@
 import constants as keys
-from telegram.ext import *
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import responses as R
 
 print("Bot started.")
@@ -30,5 +30,6 @@ def main():
 
     updater.start_polling(5)
     updater.idle()
+
 if __name__ == '__main__':
     main()
