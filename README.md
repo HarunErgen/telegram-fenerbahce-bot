@@ -1,4 +1,4 @@
-# Telegram-Fenerbahce-Bot
+# Telegram Fenerbahce Bot
 Selman the bot provides information about the fixtures of the teams, sends links of the match tickets to the users, and calculates how much time is left for the matches of Fenerbahçe.
 
 Bot is created via telegram library. Commands and messages are handled by the functions of the library. My API key and chat IDs are stored in a separate file named constants.py. I used Selenium to scrape data of team fixtures and match tickets from the websites 'www.biletwise.com' and 'www.sporx.com'. By using the datetime library, I calculated how much time is left for the matches, what week it is in the Süper Lig and when the soonest match of the Fenerbahçe is. I determine the commands of the users through regular expression and provide the required response to the users.  
